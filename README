@@ -1,3 +1,5 @@
+ Rebar compatible fork https://github.com/erlware/efcgi.
+===========
  The efcgi application is an OTP application that supports the fast cgi
 protocol. Currently the system expects to communicate with the fastcgi
 server via tcp sockets only. It also expects to be started by the otp

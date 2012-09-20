@@ -1,0 +1,7 @@
+{application, efcgi,
+ [{description, "rebar compatible efcgi application "},
+  {vsn, ""},
+  {modules, [efcgi, efcgi_parse, efcgi_request, efcgi_request_proxy, efcgi_request_sup, efcgi_server, efcgi_server_sup, efcgi_socket, efcgi_sup, efcgi_test]},
+  {registered, []},
+  {applications, [kernel, stdlib, crypto, ssl]},
+  {included_applications, []}]}.
